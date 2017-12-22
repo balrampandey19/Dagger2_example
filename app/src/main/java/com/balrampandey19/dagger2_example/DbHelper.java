@@ -1,4 +1,4 @@
-package com.balrampandey19.dagger2_example.DBHelper;
+package com.balrampandey19.dagger2_example;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,10 +7,6 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
-import com.balrampandey19.dagger2_example.Annotations.ApplicationContext;
-import com.balrampandey19.dagger2_example.Annotations.DatabaseInfo;
-import com.balrampandey19.dagger2_example.User;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

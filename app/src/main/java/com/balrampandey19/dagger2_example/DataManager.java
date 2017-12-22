@@ -1,10 +1,7 @@
-package com.balrampandey19.dagger2_example.DBHelper;
+package com.balrampandey19.dagger2_example;
 
 import android.content.Context;
 import android.content.res.Resources;
-
-import com.balrampandey19.dagger2_example.Annotations.ApplicationContext;
-import com.balrampandey19.dagger2_example.User;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

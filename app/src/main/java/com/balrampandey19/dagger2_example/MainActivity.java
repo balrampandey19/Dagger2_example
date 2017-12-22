@@ -5,8 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.balrampandey19.dagger2_example.DBHelper.DataManager;
-
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {

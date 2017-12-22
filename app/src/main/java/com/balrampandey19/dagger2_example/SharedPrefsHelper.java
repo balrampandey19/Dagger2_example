@@ -1,4 +1,4 @@
-package com.balrampandey19.dagger2_example.DBHelper;
+package com.balrampandey19.dagger2_example;
 
 import android.content.SharedPreferences;
 

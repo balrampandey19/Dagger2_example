@@ -1,11 +1,12 @@
-package com.balrampandey19.dagger2_example.Annotations;
+package com.balrampandey19.dagger2_example;
+
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import javax.inject.Scope;
+import javax.inject.Qualifier;
 
-@Scope
+@Qualifier
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PerActivity {
+public @interface ActivityContext {
 }
